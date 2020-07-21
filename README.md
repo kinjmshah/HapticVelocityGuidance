@@ -16,7 +16,7 @@ This repository accompanies the hardware and algorithm described in ***[Proposin
 A detailed assembly of the circuit above may be described in future updates of this work. However, the program in this repository will still work with any standard circuit configuration with the LEDs, vibration motors, and Raspberry Pi. The Raspberry Pi must be setup such that Wifi communication between a computer and the RP. The files `execute.py` and `guidance.py` should be transferred to the RPi.
 
 **Execution Instructions:**
-1. Transfer `execute.py` and `guidance.py` to Raspbery Pi (ensure both are in the directory)
+1. Transfer `execute.py` and `guidance.py` to Raspbery Pi (ensure both are in the same directory)
 2. Execute `python3 execute.py cmd1 cmd2 cmd3` from within the directory where the two files are located
 3. Command line arguments
     - 1st command line argument: subject number (starting with 001)
